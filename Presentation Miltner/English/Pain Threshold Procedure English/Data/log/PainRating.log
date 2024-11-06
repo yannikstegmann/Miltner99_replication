@@ -1,0 +1,36 @@
+Scenario - 
+Logfile written - 04/17/2023 14:31:18
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+test	1	Response	1	27334	27168	1
+test	2	Picture	pain_rating	27522	0	1	36029	1	0	next	other	0
+test	2	Response	1	63413	35891	1
+test	3	Picture	shock1	63551	0	1	167	1	0	20	other	0
+test	4	Picture	pain_rating	66887	0	1	7840	1	0	next	other	0
+test	4	Response	1	74534	7646	1
+test	5	Picture	shock1	74727	0	1	167	1	0	20	other	0
+test	6	Picture	pain_rating	78063	0	1	4837	2	0	next	other	0
+test	6	Response	1	82694	4631	1
+test	7	Picture	shock1	82900	0	1	167	1	0	20	other	0
+test	8	Picture	pain_rating	86236	0	1	5171	1	0	next	other	0
+test	8	Response	1	91254	5017	1
+test	9	Picture	shock1	91407	0	1	167	1	0	20	other	0
+test	10	Picture	pain_rating	94743	0	1	5004	1	0	next	other	0
+test	10	Response	1	99573	4830	1
+test	11	Picture	shock1	99747	0	1	167	1	0	20	other	0
+test	12	Picture	pain_rating	103083	0	1	5338	1	0	next	other	0
+test	12	Response	1	108293	5210	1
+test	13	Picture	shock1	108421	0	1	167	1	0	20	other	0
+test	14	Picture	pain_rating	111757	0	1	6005	2	0	next	other	0
+test	14	Response	1	117574	5817	1
+test	15	Picture	shock1	117762	0	1	167	2	0	20	other	0
+test	16	Picture	pain_rating	121098	0	1	5838	1	0	next	other	0
+test	16	Response	1	126774	5675	1
+test	17	Picture	shock1	126936	0	1	167	1	0	20	other	0
+test	18	Picture	pain_rating	130272	0	1	5505	1	0	next	other	0
+test	18	Response	1	135653	5381	1
+test	19	Picture	shock1	135777	0	1	167	1	0	20	other	0
+test	20	Picture	pain_rating	139113	0	1	6005	2	0	next	other	0
+test	20	Response	2	145013	5900	1
+test	21	Picture	shock1	145118	0	1	167	2	0	20	other	0

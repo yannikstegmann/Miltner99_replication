@@ -1,0 +1,8 @@
+Scenario - 
+Logfile written - 07/16/2024 12:07:36
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+test	1	Response	1	4669	4503	1
+test	2	Picture	pain_rating	4837	0	1	15324	1	0	next	other	0
+test	2	Quit		16111	11274	NA
