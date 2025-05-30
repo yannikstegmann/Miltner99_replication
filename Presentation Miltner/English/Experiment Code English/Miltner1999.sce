@@ -460,12 +460,12 @@ end;
 ###################
 
 sub iti begin
-iti_event.set_duration ( random(3000,5000) ) ; #set ITI duration to 4s without jitter
+iti_event.set_duration ( random(3000,4000) ) ; #set ITI duration to 3-4s 
 iti_trial.present () ;
 end;
 
 sub short_iti begin
-iti_event.set_duration ( 500 ) ; #set ITI duration to 4s without jitter
+iti_event.set_duration ( 500 ) ; #set ITI duration to 500 ms without jitter
 iti_trial.present () ;
 end;
 
