@@ -89,8 +89,8 @@ badProbability = find(badProbability.reject.rejjp);
 CleanEpochs(badProbability) = 0;
 
 % Save good epochs in datafile
-badTrials = dataset({CleanEpochs','trial_number'});
-export(badTrials,'file','Reg1_badTrials.csv','Delimiter',';') % Change name and directory 
+goodTrials = dataset({CleanEpochs','trial_number'});
+export(goodTrials,'file','Reg1_goodTrials.csv','Delimiter',';') % Change name and directory 
 
 % Remove bad Epochs
 EEG = pop_select( EEG, 'trial',find(CleanEpochs));
@@ -170,7 +170,7 @@ end
 % Baseline-correct PSD values for diagonals (change in %)
 for s1 = 1:nodes %cycle through diagonal
     for f = 1:numel(freqs) %cycle through freqs
-        coherenceAcqCSp(s1,s1,f,:)  = (coherenceAcqCSp(s1,s2,f,:)-mean(coherenceAcqCSp(s1,s2,f,baselineWindow)))./mean(coherenceAcqCSp(s1,s2,f,baselineWindow)).*100-100;
+        coherenceAcqCSp(s1,s1,f,:)  = (coherenceAcqCSp(s1,s2,f,:)-mean(coherenceAcqCSp(s1,s2,f,baselineWindow)))./mean(coherenceAcqCSp(s1,s2,f,baselineWindow)).*100;
    end
 end
           
@@ -218,7 +218,7 @@ end
 
 for s1 = 1:nodes %cycle through diagonal
     for f = 1:numel(freqs) %cycle through freqs
-        coherenceAcqCSm(s1,s1,f,:)  = (coherenceAcqCSm(s1,s2,f,:)-mean(coherenceAcqCSm(s1,s2,f,baselineWindow)))./mean(coherenceAcqCSm(s1,s2,f,baselineWindow)).*100-100;
+        coherenceAcqCSm(s1,s1,f,:)  = (coherenceAcqCSm(s1,s2,f,:)-mean(coherenceAcqCSm(s1,s2,f,baselineWindow)))./mean(coherenceAcqCSm(s1,s2,f,baselineWindow)).*100;
    end
 end
         
@@ -266,7 +266,7 @@ end
 
 for s1 = 1:nodes %cycle through diagonal
     for f = 1:numel(freqs) %cycle through freqs
-        coherenceExtCSp(s1,s1,f,:)  = (coherenceExtCSp(s1,s2,f,:)-mean(coherenceExtCSp(s1,s2,f,baselineWindow)))./mean(coherenceExtCSp(s1,s2,f,baselineWindow)).*100-100;
+        coherenceExtCSp(s1,s1,f,:)  = (coherenceExtCSp(s1,s2,f,:)-mean(coherenceExtCSp(s1,s2,f,baselineWindow)))./mean(coherenceExtCSp(s1,s2,f,baselineWindow)).*100;
    end
 end
   
@@ -316,7 +316,7 @@ end
 
 for s1 = 1:nodes %cycle through diagonal
     for f = 1:numel(freqs) %cycle through freqs
-        coherenceExtCSm(s1,s1,f,:)  = (coherenceExtCSm(s1,s2,f,:)-mean(coherenceExtCSm(s1,s2,f,baselineWindow)))./mean(coherenceExtCSm(s1,s2,f,baselineWindow)).*100-100;
+        coherenceExtCSm(s1,s1,f,:)  = (coherenceExtCSm(s1,s2,f,:)-mean(coherenceExtCSm(s1,s2,f,baselineWindow)))./mean(coherenceExtCSm(s1,s2,f,baselineWindow)).*100;
    end
 end
          
