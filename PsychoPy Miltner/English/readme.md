@@ -27,7 +27,7 @@ Run the experiment:
 	- Stop with "Escape"
 
 2. Run the main experiment
-	- Enter a participant number (First three letters of your lab and two digits for the number, e.g. Wue_01)
+	- Enter a participant number (First three letters of your lab and two digits for the number, e.g. Miltner_Wue_01)
 	- For each participant you then need to enter the CS assignmet at Order. 
 		1: Square = CS+, Diamond= CS-
 		2: Diamond = CS+, Square = CS-
